@@ -45,6 +45,8 @@ namespace Hm_to_Femap_list
                 return;
             }
 
+            textBox_femap.Text = "";
+
             // Convert the HM Text to Femap text
             string input_hm_str = textBox_hm.Text;
 
